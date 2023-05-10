@@ -1,5 +1,6 @@
 import path from "path";
 import type { ClientData } from "./src/types";
+import _ from "lodash";
 
 export const createPages = async ({ actions }: any) => {
   const { createPage } = actions;
@@ -10,7 +11,7 @@ export const createPages = async ({ actions }: any) => {
 
   data.forEach((company: ClientData) => {
     createPage({
-      path: `/companies/${company["nom de l´entreprise"]}`,
+      path: `/companies/${_.snakeCase(company["nom de l´entreprise"] as string)}`,
       component: companyTemplate,
       context: {
         company
