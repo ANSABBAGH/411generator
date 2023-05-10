@@ -2,7 +2,7 @@ import React from "react";
 import * as menuStyles from "./styles.module.css";
 import { Footer } from "./Footer";
 import classnames from "classnames";
-import "../assets/css";
+import "../../assets/css";
 
 interface LayoutProps {
   children: React.ReactNode;
