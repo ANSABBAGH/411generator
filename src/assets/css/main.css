@@ -1,20 +1,4 @@
-/* Couleurs Debut
-#6BCBFF; bleu logo
-#0DA2F2; bleu
-#0E7AB9; bleu2
-
-#748794; 116,135,148 gris pale
-#A1B2BE; gris pale2 (texte footer)
-#F7F9FB; 247,249,251 Gris pale3 (bg client)
-#F1F5F9; 241,245,249 Gris pale4 (bg Heures d'ouverture)
-#455560; 69,85,96 gris fonce
-#35424A; 53,66,74 gris fonce2
-#E3ECF3; Gris (border)
-#DC2C30; Rouge (Champ requis)
-#C00000; Code Promo
-#FF6600; orange
-Couleurs Fin */
-/* Resets Debut */
+/* Start reset */
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
 	margin: 0;	padding: 0;	border: 0;	outline: 0;	font-weight: inherit;	font-style: inherit;	font-family: inherit;	vertical-align: baseline; }
 :focus, :active { outline: 0; } /* Pas de bordure quand un objet est clique */
@@ -27,7 +11,7 @@ li { list-style: none; }
 input[type="text"],  input[type="tel"],  input[type="email"], input[type="checkbox"], input[type="select"], input[type="radio"], input[type="button"], input[type="submit"], textarea, select {  -webkit-appearance: none; /* Empeche les style par defaut du iphone (Formulaire champs / boutons)  */ 
   -moz-appearance: none;  -ms-appearance: none;  -o-appearance: none;  appearance: none; }
 textarea { resize: none; }
-/* Resets Fin */
+/* End Reset */
 
 #modalbox { width: 100%; height: 100%; padding-top: 5em; background: rgba(255,255,255,0.90); position: fixed;	top: 0;	right: 0;	bottom: 0;	left: 0;	z-index: 999;	display: none;	overflow: hidden;	-webkit-overflow-scrolling: touch;	outline: 0; }
 #modalbox .choix1, #modalbox .choix2 { float: left; width: 50%; margin: 3em 0; }
