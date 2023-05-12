@@ -13,10 +13,10 @@ export default ({ children }: LayoutProps) => {
   return (
     <div>
       <header>
-        <div className='logo'>
+        <div className="logo">
           <a href="https://www.411sante.com/index.php">
             411
-            <span className='comptable'>
+            <span className="comptable">
               sante<span className="com">.com</span>
             </span>
           </a>
@@ -52,7 +52,7 @@ export default ({ children }: LayoutProps) => {
           </form>
         </div>
       </header>
-      <nav id="f-nav" className={menuStyles["menu_container"]}>
+      <nav id="f-nav" className={classnames(menuStyles["menu_container"], menuStyles["f-nav"])}>
         <div className={classnames(menuStyles["menu_fit"], menuStyles["menu_bg"])}>
           <ul className={menuStyles["nav"]}>
             <li id="home" className={menuStyles["home"]}>

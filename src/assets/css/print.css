@@ -1,42 +1,159 @@
 @media print {
-/* ---------- Body debut ---------- */
-body {	background: #FFF; letter-spacing: normal; font-size: 1em; color: #666; }
-.menu_container, .selectRegion, .col1.regions, .toggle_regions, .cache_texte, .bg, a.btn_tel_float span, .box_partage { display: none; }
+  /* ---------- Body debut ---------- */
+  body {
+    background: #fff;
+    letter-spacing: normal;
+    font-size: 1em;
+    color: #666;
+  }
+  .menu_container,
+  .selectRegion,
+  .col1.regions,
+  .toggle_regions,
+  .cache_texte,
+  .bg,
+  a.btn_tel_float span,
+  .box_partage {
+    display: none;
+  }
 
-.mwidth { width: 100%; }
-.mwidth_header { width: 100%; } 
-.f-nav { display: none; }
-.text_shadow { text-shadow: none; }
-#form_contact { display: none; }
-.logo  { position: relative; margin: 0; left: 1em; top: 0; font-size: 1.75em; }
-.logo a { text-shadow: none;  }
-.pregions.top { padding: 1.65em 3em 0em 3em ; border: none;  }
-.pregions h2 {  margin: 0em 0 0 0;  } 
-.pregions { border: none;  }
-.pregions h1 { font-size: 2em; margin: 0;  }
-.pregions .list { padding: 0 3em;  }
-.client li a img { width: 100%; height: auto; }
-.col1 { display: none; }
-.col2 {	 width: 60%; }
-.col3 { width: 40%; }
-footer p {	 font-size: 0.5em; padding: 0;}
-.client { padding: 0; border: none;  margin: 0; }
-.nouv_insc { padding:  0em 1em 0em 1em; margin: 0; }
-.client li {  height: 3em; }
-.nouv_insc li {  height: 4em;  }
-a.btn_tel_float { padding: 0.5em 0 0 0; position: relative;-moz-border-radius: 0.3em;	-webkit-border-radius: 0.3em;	border-radius: 0.3em;  display: block; font-size: 3em; margin: auto; margin-top: 0.5em;}
-.autofitimg { margin-top: 0.5em; }
-.pclient .boxbandeau { padding: 0.25em 0; } 
-#GOOGLE_MAPS { margin-bottom: 5em; } 
-.pclient .left {  width: 66%;  }
-.pclient .right {  width: 33%; }
-.services h2 { padding: 0.5em 0.75em; }
-.services h3 {  padding: 0.5em 1em 0em 1em; font-size: 1.5em;  }
-.services ul {  margin: 0; padding: 0; width: 100%;   }
-.horraire h2 { font-size: 1em; padding: 1em 0; }
+  .mwidth {
+    width: 100%;
+  }
+  .mwidth_header {
+    width: 100%;
+  }
+  .f-nav {
+    display: none;
+  }
+  .text_shadow {
+    text-shadow: none;
+  }
+  #form_contact {
+    display: none;
+  }
+  .logo {
+    position: relative;
+    margin: 0;
+    left: 1em;
+    top: 0;
+    font-size: 1.75em;
+  }
+  .logo a {
+    text-shadow: none;
+  }
+  .pregions.top {
+    padding: 1.65em 3em 0em 3em;
+    border: none;
+  }
+  .pregions h2 {
+    margin: 0em 0 0 0;
+  }
+  .pregions {
+    border: none;
+  }
+  .pregions h1 {
+    font-size: 2em;
+    margin: 0;
+  }
+  .pregions .list {
+    padding: 0 3em;
+  }
+  .client li a img {
+    width: 100%;
+    height: auto;
+  }
+  .col1 {
+    display: none;
+  }
+  .col2 {
+    width: 60%;
+  }
+  .col3 {
+    width: 40%;
+  }
+  footer p {
+    font-size: 0.5em;
+    padding: 0;
+  }
+  .client {
+    padding: 0;
+    border: none;
+    margin: 0;
+  }
+  .nouv_insc {
+    padding: 0em 1em 0em 1em;
+    margin: 0;
+  }
+  .client li {
+    height: 3em;
+  }
+  .nouv_insc li {
+    height: 4em;
+  }
+  a.btn_tel_float {
+    padding: 0.5em 0 0 0;
+    position: relative;
+    -moz-border-radius: 0.3em;
+    -webkit-border-radius: 0.3em;
+    border-radius: 0.3em;
+    display: block;
+    font-size: 3em;
+    margin: auto;
+    margin-top: 0.5em;
+  }
+  .autofitimg {
+    margin-top: 0.5em;
+  }
+  .pclient .boxbandeau {
+    padding: 0.25em 0;
+  }
+  #GOOGLE_MAPS {
+    margin-bottom: 5em;
+  }
+  .pclient .left {
+    width: 66%;
+  }
+  .pclient .right {
+    width: 33%;
+  }
+  .services h2 {
+    padding: 0.5em 0.75em;
+  }
+  .services h3 {
+    padding: 0.5em 1em 0em 1em;
+    font-size: 1.5em;
+  }
+  .services ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .schedule h2 {
+    font-size: 1em;
+    padding: 1em 0;
+  }
 
-.horraire ul { margin: 0 0em 1em 0em; padding: 1em 0; }
-.horraire li { color: #748794;  display: inline-block;  width: 100%; margin: 0; padding: 0;  text-transform: uppercase;  }
-.horraire li p { font-size: 0.75em; border-bottom: 1px solid #E3ECF3; margin: 0em 2em 0em 2em; text-align: left; padding: 0.75em 1em 0.75em 1em;  }
-.type_paiements {  padding: 0 2em 2em 2em; } 
+  .schedule ul {
+    margin: 0 0em 1em 0em;
+    padding: 1em 0;
+  }
+  .schedule li {
+    color: #748794;
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+  }
+  .schedule li p {
+    font-size: 0.75em;
+    border-bottom: 1px solid #e3ecf3;
+    margin: 0em 2em 0em 2em;
+    text-align: left;
+    padding: 0.75em 1em 0.75em 1em;
+  }
+  .payment_type {
+    padding: 0 2em 2em 2em;
+  }
 }

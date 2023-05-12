@@ -19,3 +19,7 @@ export const createPages = async ({ actions }: any) => {
     });
   });
 };
+
+export const onPostBuild = async ({ graphql }: any) => {
+  console.log('Sending to bucket -- TODO')
+}
