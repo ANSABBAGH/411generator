@@ -8,8 +8,7 @@ interface ContentProps {
 }
 
 export const Content = ({ company }: ContentProps) => {
-  const address = `${company["# batiment"]} ${company["rue"]} ${company["cartier"]} ${company["ville"]}, <br /> ${company["province"]} ${company["code postal"]}`;
-
+  const address = `${company["# batiment"]} ${company["rue"]} ${company["cartier"] ?? ""} ${company["ville"]}, <br /> ${company["province"]} ${company["code postal"]}`;
   return (
     <>
       <div>
@@ -25,6 +24,39 @@ export const Content = ({ company }: ContentProps) => {
             <div className="right">
               <div>
                 <a className="client_anchor"> </a>
+                <div className="services">
+                  <h3>Produits et Services</h3>
+                  <ul>
+                    <li>
+                      <p>
+                        <span>
+                        </span>
+                        Test 1
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        <span>
+                        </span>
+                        Test 1
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        <span>
+                        </span>
+                        Test 3
+                      </p>
+                    </li>
+                    <li>
+                      <p>
+                        <span>
+                        </span>
+                        Test 4
+                      </p>
+                    </li>
+                  </ul>
+                </div>
                 <ClientInfo company={company} />
                 <Schedule company={company} />
                 <div className="payment_type font_blackita">
