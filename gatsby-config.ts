@@ -1,9 +1,12 @@
 import type { GatsbyConfig } from "gatsby";
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
 
 const config: GatsbyConfig = {
   siteMetadata: {
     title: `411Generator`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `http://411-static-site-test-upload.s3-website.us-east-1.amazonaws.com`
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
   // If you use VSCode you can also use the GraphQL plugin

@@ -9,7 +9,7 @@ interface LayoutProps {
 }
 
 export default ({ children }: LayoutProps) => {
-  console.log(menuStyles);
+
   return (
     <div>
       <header>

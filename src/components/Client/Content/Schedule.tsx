@@ -7,7 +7,6 @@ interface ScheduleProps {
 }
 
 export const Schedule = ({ company }: ScheduleProps) => {
-  console.log(company);
 
   const companyDayMapper = {
     "HLundi": "Lundi",
